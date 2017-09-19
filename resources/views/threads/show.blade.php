@@ -8,7 +8,7 @@
                 <div class="panel-heading">
                     <a href="#">
                         {{ $thread->creator->name }}
-                    </a> asked {{ $thread->title }}</div>
+                    </a> posted: {{ $thread->title }}</div>
 
                 <div class="panel-body">
                     {{ $thread->body }}
